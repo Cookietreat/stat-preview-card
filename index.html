@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap" rel="stylesheet">
+  
+  <title> Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    .leftSide{
+        width: 400px;
+        height: 300px;
+        position: relative;
+        top: 150px;
+        left: 250px;
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        background-color: hsl(244, 38%, 16%);
+        color: white;
+       padding-top: 40px;
+       padding-right: 40px;
+
+    }
+    .h1{
+   
+    margin-bottom: -6px;
+      
+    }
+    #firstOne{
+      font-size: 15px;
+      padding-left: 55px;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 700;
+    }
+   
+    #secondOne{
+      font-size: 12px;
+      padding-top: 14px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      padding-right: 65px;
+      word-spacing: 2px;
+      line-height: 1.8;
+    }
+    .numbers{
+      
+     padding-top: 50px;
+      
+    }
+    #no1{
+      font-size: 12px;
+    }
+
+    #no2{
+      padding-left: 80px;
+    }
+
+    #no3{
+      padding-left: 90px;
+    }
+
+    .rightSide{
+     
+      position: relative;
+     bottom:  190px;
+      left: 730px;
+     
+    
+    }
+
+    img{
+      width: 450px;
+      height: 340px;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      filter: opacity(0.5) drop-shadow(0 0 0 0, hsl(277, 83%, 39%) );
+      -webkit-filter: opacity(.5) drop-shadow(0 0 0 hsl(278, 82%, 41%));
+      background: linear-gradient(purple, violet);
+    }
+
+    .brightness{
+      filter: brightness(200%);
+      -webkit-filter: brightness(200%);
+    }
+    .contrast{
+      filter: contrast(100%);
+      -webkit-filter: contrast(100%);
+    }
+    body{
+       background-color: hsl(233, 47%, 7%);
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="leftSide" id="firstOne" >
+  <h1 style="margin: 0px;">Get <span style="color: purple;">insights</span> that help <br> your business grow.</h1>
+  <div  id="secondOne" style="font-weight: 200;">
+  Discover the benefits of data analytics and make <br> better decisions regarding revenue, customer <br>
+  experience, and overall efficiency.
+ 
+  <div id="thirdOne">
+    <table>
+      <tr class="tables">
+  <td> <div class="numbers" id="no1"> <h1 style="margin: 0px;">10k+</h1>  COMPANIES </div></td>
+
+    <td> <div class="numbers" id="no2"> <h1 style="margin: 0px;">314 </h1> TEMLATES</div>
+    </td>
+   
+    <td> <div class="numbers" id="no3"> <h1 style="margin: 0px;">12M+ </h1> QUERIES </div>  </td>
+  
+      
+
+  </tr>
+
+</table>
+</div>
+</div>
+</div>
+<div class="rightSide">
+  <img src="/images/image-header-desktop.jpg" alt="">
+</div>
+
+  <div class="attribution" style="color: white;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Angie</a>.
+  </div>
+</body>
+</html>
